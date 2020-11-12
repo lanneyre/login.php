@@ -14,5 +14,6 @@
             <input type="submit" value="Se connecter"> <input type="reset" value="Annuler"> 
         </form>
     </fieldset>
+    <a href="?page=create">S'inscrire</a>
 </body>
 </html>

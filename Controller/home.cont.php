@@ -1,6 +1,6 @@
 <?php
 
-    var_dump($_SESSION);
+    // var_dump($_SESSION);
 
     if(empty($_SESSION['user'])){
         include_once("View/login.view.php");
