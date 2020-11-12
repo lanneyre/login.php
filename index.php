@@ -26,6 +26,8 @@ if(is_file("Controller/".$page.".cont.php")){
 } else {
     if($page == "traitementlogin"){
         require_once("Controller/login.cont.php");
+    } else if($page == "createcompte"){
+        require_once("Controller/create.cont.php");
     } else {
         require_once("Controller/home.cont.php");
     }
