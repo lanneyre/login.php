@@ -1,17 +1,17 @@
 <?php
 
-session_start();
-
 // $_SESSION['nom'] = "Mickey";
 // unset($_SESSION['nom']);
 require_once 'Model/autoloader.php';
 Autoloader::register();
 
+session_start();
+
 database::createConnexion();
 // $bdd = new database();
 // $bdd->createConnexion();
 
-var_dump(database::$_conn);
+// var_dump(database::$_conn);
 
 if(!empty($_GET['page'])) {
     $page = strtolower($_GET['page']);
